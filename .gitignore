@@ -1,0 +1,24 @@
+.vagrant
+Berksfile.lock
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+
+# Bundler
+Gemfile.lock
+bin/*
+.bundle/*
+
+.kitchen/
+.kitchen.local.yml
+
+vendor
+vagrants
+nodes
+clients
+data_bags
+.chef/local-mode-cache/
+.chef/keys/
