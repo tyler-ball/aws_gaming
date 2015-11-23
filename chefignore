@@ -98,3 +98,6 @@ Vagrantfile
 # Travis #
 ##########
 .travis.yml
+
+.chef
+Policyfile.lock.json

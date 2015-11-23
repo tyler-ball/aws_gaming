@@ -22,3 +22,9 @@ clients
 data_bags
 .chef/local-mode-cache/
 .chef/keys/
+.chef/nodes
+.chef/cookbooks
+.chef/data_bags
+.chef/client.rb
+.chef/Policyfile.lock.json
+Policyfile.lock.json

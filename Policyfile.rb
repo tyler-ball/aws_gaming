@@ -11,6 +11,8 @@ default_source :supermarket
 
 # run_list: chef-client will run these recipes in the order specified.
 run_list "aws_gaming::default"
+named_run_list "destroy", "aws_gaming::destroy"
+named_run_list "stop", "aws_gaming::stop"
 
 # Specify a custom source for a single cookbook:
 cookbook "aws_gaming", path: "."

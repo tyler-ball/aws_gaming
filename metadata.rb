@@ -1,6 +1,6 @@
 name 'aws_gaming'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Tyler Ball'
+maintainer_email 'tyleraball@gmail.com'
 license 'all_rights'
 description 'Installs/Configures aws_gaming'
 long_description 'Installs/Configures aws_gaming'

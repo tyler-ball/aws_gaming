@@ -1,6 +1,6 @@
 require 'chef/provisioning/aws_driver'
 
-with_driver "aws:#{ENV['USER']}:us-west-2"
+with_driver node[:aws_driver]
 
 machine 'windows_gaming_machine' do
   action :destroy
